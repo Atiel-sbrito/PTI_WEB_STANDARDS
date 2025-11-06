@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Landing page do Psicólogo João Silva. Atendimento humanizado, online e presencial.">
+  <meta name="keywords" content="psicólogo, terapia, ansiedade, depressão, atendimento online, João Silva">
+  <title>Psicólogo João Silva</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header class="faixa faixa1">
+    <h1>João Silva - Psicólogo Clínico</h1>
+    <p>Cuidar da mente é o primeiro passo para viver melhor</p>
+    <a href="#contato" class="btn">Agende sua consulta</a>
+  </header>
+
+  <section class="faixa faixa2">
+    <h2>Sobre Mim</h2>
+    <p>Psicólogo formado pela USP, com 10 anos de experiência em psicoterapia individual. Especialista em saúde mental e bem-estar emocional.</p>
+    <img src="joao-silva.jpg" alt="Foto do Psicólogo João Silva" class="foto-perfil">
+  </section>
+
+  <section class="faixa faixa3">
+    <h2>Serviços</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Serviço</th>
+          <th>Descrição</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Psicoterapia individual</td>
+          <td>Atendimento personalizado para adultos e adolescentes.</td>
+        </tr>
+        <tr>
+          <td>Atendimento online</td>
+          <td>Consultas por videochamada com segurança e sigilo.</td>
+        </tr>
+        <tr>
+          <td>Tratamento para ansiedade e depressão</td>
+          <td>Abordagens terapêuticas baseadas em evidências.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="faixa faixa4">
+    <h2>Por que me escolher?</h2>
+    <ul>
+      <li>Atendimento humanizado e empático</li>
+      <li>Flexibilidade de horários</li>
+      <li>Ambiente acolhedor</li>
+      <li>Sigilo garantido</li>
+    </ul>
+  </section>
+
+  <section class="faixa faixa5" id="contato">
+    <h2>Entre em Contato</h2>
+    <form action="https://formsubmit.co/seuemail@exemplo.com" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone">
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+</body>
+</html>

@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.faixa {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.faixa1 {
+  background-color: #f0f8ff;
+}
+
+.faixa2, .faixa3, .faixa4 {
+  background-color: #ffffff;
+}
+
+.faixa5 {
+  background-color: #e6f2ff;
+}
+
+.btn {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+}
+
+.foto-perfil {
+  max-width: 200px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input, textarea, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #0077cc;
+  color: white;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  max-width: 600px;
+}
+
+@media (max-width: 600px) {
+  .faixa {
+    padding: 20px 10px;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  ul {
+    padding-left: 15px;
+  }
+}
